@@ -15,6 +15,8 @@
 		80B873DE1C464CE1009D5A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B873DC1C464CE1009D5A55 /* LaunchScreen.storyboard */; };
 		80B873E91C464CE1009D5A55 /* JLDoubleSliderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B873E81C464CE1009D5A55 /* JLDoubleSliderDemoTests.m */; };
 		80B873F41C464CE1009D5A55 /* JLDoubleSliderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B873F31C464CE1009D5A55 /* JLDoubleSliderDemoUITests.m */; };
+		80B874081C464DC4009D5A55 /* JLDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B874071C464DC4009D5A55 /* JLDoubleSlider.m */; };
+		80B8740E1C4652DB009D5A55 /* UIView+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B8740D1C4652DB009D5A55 /* UIView+Dimension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		80B873EF1C464CE1009D5A55 /* JLDoubleSliderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLDoubleSliderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B873F31C464CE1009D5A55 /* JLDoubleSliderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLDoubleSliderDemoUITests.m; sourceTree = "<group>"; };
 		80B873F51C464CE1009D5A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B874061C464DC4009D5A55 /* JLDoubleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLDoubleSlider.h; path = JLDoubleSlider/JLDoubleSlider.h; sourceTree = "<group>"; };
+		80B874071C464DC4009D5A55 /* JLDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLDoubleSlider.m; path = JLDoubleSlider/JLDoubleSlider.m; sourceTree = "<group>"; };
+		80B8740C1C4652DB009D5A55 /* UIView+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Dimension.h"; path = "JLDoubleSlider/UIView+Dimension.h"; sourceTree = "<group>"; };
+		80B8740D1C4652DB009D5A55 /* UIView+Dimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Dimension.m"; path = "JLDoubleSlider/UIView+Dimension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		80B873CD1C464CE1009D5A55 /* JLDoubleSliderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				80B874051C464DB1009D5A55 /* JLDoubleSlider */,
 				80B873D11C464CE1009D5A55 /* AppDelegate.h */,
 				80B873D21C464CE1009D5A55 /* AppDelegate.m */,
 				80B873D41C464CE1009D5A55 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				80B873F51C464CE1009D5A55 /* Info.plist */,
 			);
 			path = JLDoubleSliderDemoUITests;
+			sourceTree = "<group>";
+		};
+		80B874051C464DB1009D5A55 /* JLDoubleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				80B874061C464DC4009D5A55 /* JLDoubleSlider.h */,
+				80B874071C464DC4009D5A55 /* JLDoubleSlider.m */,
+				80B8740C1C4652DB009D5A55 /* UIView+Dimension.h */,
+				80B8740D1C4652DB009D5A55 /* UIView+Dimension.m */,
+			);
+			name = JLDoubleSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 				80B873D61C464CE1009D5A55 /* ViewController.m in Sources */,
 				80B873D31C464CE1009D5A55 /* AppDelegate.m in Sources */,
 				80B873D01C464CE1009D5A55 /* main.m in Sources */,
+				80B8740E1C4652DB009D5A55 /* UIView+Dimension.m in Sources */,
+				80B874081C464DC4009D5A55 /* JLDoubleSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
